@@ -1,0 +1,36 @@
+# Core Framework
+Django>=4.2,<5.0
+djangorestframework>=3.14
+
+# Database
+PyMySQL>=1.1.0
+
+# CORS Headers
+django-cors-headers>=4.0
+
+# Image Processing
+Pillow>=10.0
+
+# Persian Date Support
+django-jalali>=6.0
+
+# Real-time Support (WebSocket)
+channels>=4.0
+daphne>=4.0
+
+# Redis (for Channels)
+redis>=5.0
+channels-redis>=4.0
+
+# HTTP Requests (for Payment Gateways & SMS)
+requests>=2.31
+
+# Environment Variables
+python-decouple>=3.8
+
+# Persian/Farsi Support
+python-dateutil>=2.8
+
+# Production Server
+gunicorn>=21.2
+whitenoise>=6.5

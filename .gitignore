@@ -1,0 +1,94 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+/media/
+/staticfiles/
+
+# Environment Variables
+.env
+.env.local
+# Note: .env.example and .env.production are tracked (no real secrets)
+# Real secrets are only in .env on server
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Installer Lock
+installer/install.lock
+
+# Redis
+dump.rdb
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# pytest
+.pytest_cache/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Logs directory content (keep directory)
+logs/*.log
+/logs/
+
+# Local scripts
+*.bat
+server-commands.bat
+push-to-github.bat
+
+# Node (if any)
+node_modules/
+static/fontawesome-free-6.5.1-web/ 
+static/vazir-font-v30.1.0_2/ 
+static/vazirmatn-v33.003/ 
+static/bootstrap/ 
