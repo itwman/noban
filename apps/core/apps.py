@@ -1,0 +1,12 @@
+"""
+اپلیکیشن هسته - نوبان
+توسعه‌دهنده: شرکت توسعه هوشمند فرش ایرانیان
+"""
+
+from django.apps import AppConfig
+
+
+class CoreConfig(AppConfig):
+    default_auto_field = 'django.db.models.BigAutoField'
+    name = 'apps.core'
+    verbose_name = 'هسته'
